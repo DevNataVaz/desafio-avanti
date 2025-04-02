@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avanti - E-commerce</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -16,6 +17,7 @@
           <div class="logo-container">
             <img class="logo" src="./assets/logo.svg"/>
             <input type="text" placeholder="Digite aqui o que você procura">
+            <i class="fa fa-search"></i>
         </div>
         <div class="nav-container">
           <nav>
@@ -52,7 +54,12 @@
         <p>Ver mais</p>
       </div>
         <div class="produtos">
+          <div class="div-icon">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
             <div class="produto">
+              
+              
               <span class="novo">NOVO</span>
                 <img src="./assets/camiseta-lancamentos.svg" alt="Camiseta">
                 <h3> Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3> 
@@ -111,6 +118,10 @@
                 <span class="desconto-off">10% OFF</span></p>
                 <p class="parcelamento">Ou em até <strong>10x de R$ 7,90</strong></p>
                 <a href="#" class="botao-comprar">Comprar</a>
+                
+            </div>
+            <div class="div-icon">
+              <i class="fa-solid fa-arrow-right"></i>
             </div>
             
         </div>
@@ -132,15 +143,15 @@
       <div class="content-segundo-destaque">
           <h2>LOREM IPSUM</h2>
           <div class="info">
-              <div class="icon">📍</div>
+              <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
               <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
           </div>
           <div class="info">
-              <div class="icon">📍</div>
+              <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
               <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
           </div>
           <div class="info">
-              <div class="icon">📍</div>
+              <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
               <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
           </div>
       </div>
@@ -251,19 +262,47 @@
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <h2>AVANTI</h2>
-            <nav>
-                <ul>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-            <p>&copy; 2025 Avanti. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
+      <div class="footer-container">
+          <div class="footer-column">
+            <img class="logo" src="./assets/logo.svg"/>
+              <div class="social-icons">
+                  <a href="#"><img src="./assets/instagram.png" alt="instagram"></a>
+                  <a href="#"><img src="./assets/facebook.png" alt="facebook"></a>
+                  <a href="#"><img src="./assets/youtube.png" alt="youtube"></a>
+                  <a href="#"><img src="./assets/tiktok.png" alt="tiktok"></a>
+              </div>
+          </div>
+          <div class="footer-column">
+              <h4>Institucional</h4>
+              <h5>Sobre Nós</h5>
+              <h5>Nossas Lojas</h5>
+              <h5>Privacidade e Segurança</h5>
+              <h5>Termos e Condições</h5>
+          </div>
+          <div class="footer-column">
+              <h4>Central de Ajuda</h4>
+              <h5>Fale Conosco</h5>
+              <h5>Frete e Entrega</h5>
+              <h5>Trocas e Devoluções</h5>
+              <h5>Formas de Pagamento</h5>
+              <h5>FAQ</h5>
+          </div>
+          <div class="footer-column">
+              <h4>Atendimento</h4>
+              <h5><strong>Telefone:</strong> (00) 1234-5678</h5>
+              <h5><strong>E-mail:</strong> exemplo@exemplo.com.br</h5>
+              <h5><strong>Horário de atendimento:</strong></h5>
+              <h5>Segunda a Sábado: 07h00 às 23h00</h5>
+              <h5>Domingos e Feriados: 07h00 às 21h00</h5>
+          </div>
+      </div>
+      <div>
+        <img class="grupo-cartoes" src="./assets/grupo-cartoes.png" alt="grupo-cartoes">
+      </div>
+      <div class="footer-bottom">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+      </div>
+      <img class="img-grupo" src="./assets/grupo-imgs.svg" alt="grupo-imgs">
+  </footer>
 </body>
 </html>

@@ -42,6 +42,7 @@
 .logo {
   font-size: 24px;
   padding-top: 22px;
+  
 }
 
 .header-content input {
@@ -49,12 +50,21 @@
   padding: 5px;
   width: 594px;
   top: 17px;
-  right: 450px;
   border: 1px solid #DDDDDD;
   border-radius: 10px;
   outline: none;
   
  
+}
+
+.header-content i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 22%;
+  top: 18px;
+  color: gray;
 }
 
 .nav-container {
@@ -142,6 +152,17 @@ gap: 300px;
   padding: 10px;
   border: 1px solid #ddd;
 
+}
+
+.produtos i {
+  color: #005CFF;
+  border: 1px solid #005CFF;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 250px;
+  left: 30px;
 }
 
 .produto h3 {
@@ -301,9 +322,10 @@ p {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 16px;
+  font-size: 35px;
   margin-bottom: 75px;
 }
+
 
 /* Cadastro */
 
@@ -370,21 +392,70 @@ p {
 
 /* Footer */
 footer {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 20px;
+  background-color: #f8f8f8;
+  padding: 40px 20px;
 }
-
-.footer-content ul {
-  list-style: none;
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+h4 {
   margin-bottom: 10px;
+  font-weight: bold;
+}
+h5 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 15px 0;
+}
+.social-icons a {
+  font-size: 20px;
+  color: #007bff;
+  text-decoration: none;
 }
 
-.footer-content ul li a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
+.grupo-cartoes {
+  position: relative;
+  left: 38%;
+  padding-top: 30px;
+}
+
+.payment-icons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.payment-icons img {
+  height: 25px;
+}
+.footer-bottom {
+  padding-top: 60px;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 40%;
+  font-size: 12px;
+  position: relative;
+  left: 30%;
+}
+
+.img-grupo {
+  
+  padding-top: 30px;
+  position: relative;
+  left: 45%;
 }
